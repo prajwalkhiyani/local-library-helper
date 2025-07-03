@@ -11,14 +11,12 @@ A custom WordPress plugin for small-town library to showcase a "Book of the Week
 * WordPress 5.0+
 * PHP 7.4 or higher
 * Theme that supports widgets and shortcodes(used Twenty Twenty-One Version: 2.5)
-* Local Library Helper Shortcode plugin require Local Library Helper plugin to work
 
 ## Installing
 
 * Download or clone the plugin
 * Upload the folders to:
   1. wp-content/plugins/local-library-helper
-  2. wp-content/plugins/local-library-helper-shortcode
 * Activate the plugin from WordPress Dashboard → Plugins
 
 ## How to Use
@@ -49,24 +47,19 @@ Changes reflect instantly across both widget and shortcode displays.
 
 ##  Customization
 
-Edit `wp-content\plugins\local-library-helper\llh-widget.php` to adjust colors, fonts, layout, or spacing for widgets,
-Edit `wp-content\plugins\local-library-helper-shortcode\assets\llh-shortcode-style.css` to adjust colors, fonts, layout, or spacing for shortcode.
+Edit `\wp-content\plugins\local-library-helper\assets\llh-style.css` to adjust colors, fonts, layout, or spacing for widgets/shortcode.
+
 
 ## Folder Structure
-Widget
 
-* **local-library-helper/**
+* local-library-helper/
 * ├── assets/
 * │ ├── llh-style.css
 * │ └── llh-admin-media.js
 * ├── llh-widget.php
 * ├── local-library-helper.php
 
-Shortcode
-* local-library-helper-shortcode/
-* ├── assets/
-* │   └── llh-shortcode-style.css      
-* ├── local-library-helper-shortcode.php  
+
 
 by Prajwal Khiyani
 
