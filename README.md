@@ -11,7 +11,7 @@ A custom WordPress plugin for small-town library to showcase a "Book of the Week
 * WordPress 5.0+
 * PHP 7.4 or higher
 * Theme that supports widgets and shortcodes(used Twenty Twenty-One Version: 2.5)
-
+* Local Library Helper Shortcode plugin require Local Library Helper plugin to work
 
 ## Installing
 
